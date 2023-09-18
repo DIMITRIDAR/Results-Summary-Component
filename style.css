@@ -7,3 +7,46 @@ html {
 body {
   font-family: "Hanken Grotesk", sans-serif;
 }
+
+.result {
+  background: var(
+    --Gradient-1,
+    linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%)
+  );
+  padding-top: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result h2 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  color: #cac9ff;
+}
+
+.result .point {
+  width: 140px;
+  height: 140px;
+  font-size: 5.6rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 7.2rem;
+  color: white;
+  background: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  text-align: center;
+}
+
+.result .point span {
+  font-size: 1.6rem;
+  opacity: 0.5168;
+  font-weight: 700;
+}
