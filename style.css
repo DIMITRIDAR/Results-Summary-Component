@@ -4,8 +4,18 @@ html {
   font-size: 10px;
 }
 
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .result {
@@ -17,6 +27,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 40px;
+  border-radius: 0px 0px 32px 32px;
 }
 
 .result h2 {
@@ -29,24 +41,70 @@ body {
 }
 
 .result .point {
-  width: 140px;
-  height: 140px;
-  font-size: 5.6rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 7.2rem;
-  color: white;
   background: linear-gradient(
     180deg,
     #4d21c9 0%,
     rgba(37, 33, 201, 0) 100%,
     rgba(37, 33, 201, 0) 100%
   );
-  text-align: center;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  padding: 25px, 38px, 22px, 38px;
 }
 
-.result .point span {
+.result .point .big {
+  font-size: 5.6rem;
+  font-style: normal;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  line-height: 72px;
+}
+
+.result .point .small {
+  display: inline-block;
   font-size: 1.6rem;
   opacity: 0.5168;
   font-weight: 700;
+  max-height: 5px;
+  color: #cac9ff;
+}
+
+.result h3 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: white;
+  margin-top: 24px;
+}
+
+.result .details {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #cac9ff;
+  margin-top: 8px;
+  text-align: center;
+  width: 260px;
+}
+
+.summary {
+  padding: 24px, 30px, 30px;
+}
+
+.summary h2 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #303b59;
+}
+
+.summary .wrapper {
 }
