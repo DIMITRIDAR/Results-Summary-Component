@@ -63,6 +63,7 @@ body {
   color: white;
   text-align: center;
   line-height: 72px;
+  margin-top: 2.5rem;
 }
 
 .result .point .small {
@@ -104,17 +105,46 @@ body {
   font-weight: 700;
   line-height: normal;
   color: #303b59;
+  margin-top: 2.4rem;
 }
 
-.summary .wrapper .common {
+.summary .wrapper {
+  margin-top: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.common {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1.7rem 1.6rem 1.8rem 1.6rem;
+  border-radius: 1.2rem;
+}
+.common h3 {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.common p {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #303b59;
+}
+
+.common p span {
+  opacity: 0.5;
 }
 
 .flex-group {
   display: flex;
   align-items: center;
+  gap: 1.2rem;
 }
 
 .reaction {
@@ -126,6 +156,10 @@ body {
     #f55;
 }
 
+.reaction h3 {
+  color: #f55;
+}
+
 .memory {
   background: linear-gradient(
       0deg,
@@ -133,6 +167,10 @@ body {
       rgba(255, 255, 255, 0.95) 100%
     ),
     #ffb21e;
+}
+
+.memory h3 {
+  color: #ffb21e;
 }
 
 .verbal {
@@ -144,6 +182,10 @@ body {
     #00bb8f;
 }
 
+.verbal h3 {
+  color: #00bb8f;
+}
+
 .visual {
   background: linear-gradient(
       0deg,
@@ -151,4 +193,21 @@ body {
       rgba(255, 255, 255, 0.95) 100%
     ),
     #1125d6;
+}
+
+.visual h3 {
+  color: #1125d6;
+}
+
+button {
+  width: 100%;
+  height: 5.6rem;
+  background-color: #303b59;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 12.8rem;
+  margin-top: 2.4rem;
+  font-family: Hanken Grotesk;
 }
