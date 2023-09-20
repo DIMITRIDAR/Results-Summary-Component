@@ -106,5 +106,49 @@ body {
   color: #303b59;
 }
 
-.summary .wrapper {
+.summary .wrapper .common {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-group {
+  display: flex;
+  align-items: center;
+}
+
+.reaction {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #f55;
+}
+
+.memory {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #ffb21e;
+}
+
+.verbal {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #00bb8f;
+}
+
+.visual {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #1125d6;
 }
