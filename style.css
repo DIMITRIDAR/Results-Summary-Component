@@ -16,6 +16,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ecf2ff;
+}
+
+.results-summary {
+  max-width: 73.6rem;
+  margin: auto;
+  background-color: white;
 }
 
 .result {
@@ -210,4 +217,63 @@ button {
   border-radius: 12.8rem;
   margin-top: 2.4rem;
   font-family: Hanken Grotesk;
+}
+
+@media screen (min-width: 1440px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .results-summary {
+    display: flex;
+    border-radius: 3.2rem;
+  }
+
+  .result {
+    border-radius: 3.2rem;
+    padding: 3.8rem 12.4rem 11.9rem;
+    padding: 3.8rem 5.4rem 5.5rem;
+  }
+
+  .result h2 {
+    font-size: 2.4rem;
+  }
+
+  .result .point .big {
+    font-size: 7.2rem;
+  }
+
+  .result .point .small {
+    font-size: 1.8rem;
+  }
+  .result details {
+    font-size: 1.8rem;
+    width: 26rem;
+    margin-top: 1.4rem;
+  }
+
+  .result h3 {
+    margin-top: 2.8rem;
+  }
+
+  .common {
+    width: 28.8rem;
+  }
+
+  .summary h2 {
+    font-size: 2.4rem;
+  }
+
+  .common h3,
+  .common p {
+    font-size: 1.8rem;
+  }
+
+  button:hover {
+    background: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
+    cursor: pointer;
+  }
 }
