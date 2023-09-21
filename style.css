@@ -34,7 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 40px;
+  padding: 24px 58px 40px;
   border-radius: 0px 0px 32px 32px;
 }
 
@@ -113,6 +113,7 @@ body {
   line-height: normal;
   color: #303b59;
   margin-top: 2.4rem;
+  padding-left: 3.2rem;
 }
 
 .summary .wrapper {
@@ -219,7 +220,7 @@ button {
   font-family: Hanken Grotesk;
 }
 
-@media screen (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
   body {
     display: flex;
     justify-content: center;
@@ -240,6 +241,7 @@ button {
 
   .result h2 {
     font-size: 2.4rem;
+    padding-left: 4rem;
   }
 
   .result .point .big {
